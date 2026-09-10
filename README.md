@@ -84,11 +84,6 @@ Markdown is the default output. Other formats use the capabilities available in 
 
 ## Source and validation
 
-The package includes a copy of the [reviewed template](research/universal-prd-template.md), with repository-specific commentary removed. Keep this source and `skills/prd-author/assets/prd-template.md` synchronized when changing the template, then rebuild the archive from the skill directory. The research and review history stay outside the runtime package.
-
-- [Research report](research/prd-research.md)
-- [Independent template review](research/reviews/prd-template-review.md)
-- [Independent skill review](research/reviews/prd-skill-review.md)
-- [Packaging validation](research/reviews/prd-skill-validation.md)
+The skill instructions and [bundled template](skills/prd-author/assets/prd-template.md) are maintained in `skills/prd-author/`. Rebuild `dist/prd-author.zip` from the complete skill directory after making changes.
 
 Vercel's CLI 1.5.18 successfully installed this skill from both a local checkout and the public GitHub repository for Codex and Claude Code in isolated checks. Both installed paths included the exact source instructions, template, and license. The ZIP was also verified against the source. Native agent activation and Claude app ZIP upload remain untested. Format compliance and instruction-level trials do not establish identical behavior across hosts.
