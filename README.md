@@ -91,4 +91,4 @@ The package includes a copy of the [reviewed template](research/universal-prd-te
 - [Independent skill review](research/reviews/prd-skill-review.md)
 - [Packaging validation](research/reviews/prd-skill-validation.md)
 
-Vercel's CLI 1.5.18 successfully discovered this skill and installed it for Codex and Claude Code in an isolated local check; both installed paths included the exact source template and instructions. The ZIP was also verified against the source. Public GitHub installation, native agent activation, and Claude app ZIP upload remain untested. Format compliance and instruction-level trials do not establish identical behavior across hosts.
+Vercel's CLI 1.5.18 successfully installed this skill from both a local checkout and the public GitHub repository for Codex and Claude Code in isolated checks. Both installed paths included the exact source instructions, template, and license. The ZIP was also verified against the source. Native agent activation and Claude app ZIP upload remain untested. Format compliance and instruction-level trials do not establish identical behavior across hosts.
